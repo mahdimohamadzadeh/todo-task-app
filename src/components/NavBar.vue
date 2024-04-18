@@ -35,7 +35,7 @@
         </div>
       </div>
       <div class="flex-1 navbar-end">
-        <a class="btn btn-ghost text-xl">TaskApp</a>
+        <a class="btn btn-ghost text-xl 2xl:text-3xl">TaskApp</a>
       </div>
     </div>
   </div>

@@ -20,8 +20,8 @@
             @keyup.enter="addTodo"
           />
           <div class="modal-action">
-            <form method="dialog">
-              <button class="btn btn-warning text-white px-5 text-2xl mr-2">
+            <form method="dialog" class="flex w-full justify-end gap-x-3">
+              <button class="btn btn-warning text-white px-5 text-2xl">
                 {{ $t("cancel") }}
               </button>
               <button

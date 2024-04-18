@@ -28,7 +28,7 @@
     </section>
     <section class="mt-10">
       <div class="card mx-2 shadow-xl image-full bg-white">
-        <img class="rounded-xl" src="/weather.webp" alt="weather" />
+        <img class="rounded-xl h-full" src="/weather.webp" alt="weather" />
         <div
           v-if="weatherData"
           class="card-body flex justify-center items-center gap-y-5"

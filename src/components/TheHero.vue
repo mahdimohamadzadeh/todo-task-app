@@ -7,10 +7,10 @@
         <img class="w-full" src="/tehran.webp" alt="Tehran" />
       </figure>
       <div class="card-body my-auto mx-auto">
-        <h2 class="card-title text-2xl md:text-3xl">
+        <h2 class="card-title text-2xl md:text-3xl 2xl:text-6xl">
           {{ chooseMessage }}, {{ store.getUserName }}.
         </h2>
-        <p class="text-xl md:text-2xl md:mt-4">
+        <p class="text-xl md:text-2xl md:mt-4 2xl:text-4xl" dir="ltr">
           {{ `${new Date().getHours()} : ${new Date().getMinutes()}` }}
         </p>
       </div>
